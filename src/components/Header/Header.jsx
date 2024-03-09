@@ -4,7 +4,7 @@ import { useTelegram } from "../../Hooks/useTelegram";
 
 const Header = () => {
     
-
+   const {user, onClose} = useTelegram();
 
     return (
     <div className={'header'}>
