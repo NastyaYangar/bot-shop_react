@@ -1,6 +1,7 @@
 import React from "react"; 
 import Button from "../Button/Button";
 import { useTelegram } from "../../Hooks/useTelegram";
+import "./Header.css";
 
 const Header = () => {
     
@@ -18,3 +19,4 @@ const Header = () => {
 };
 
 export default Button;
+
